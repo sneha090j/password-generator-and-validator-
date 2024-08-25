@@ -1,0 +1,51 @@
+.options{
+    padding: 5px;
+    font-family:monospace;
+    color:rgb(11, 146, 167);
+
+}
+.wordrange{
+    display: flex;
+    justify-content: space-between;
+  
+    text-transform: capitalize;
+    font-family: monospace;
+    color:rgb(11, 146, 167);
+}
+.wordrange input{
+    height: 15px;
+    color:rgb(11, 146, 167);
+
+}
+.options input[type="range"] {
+    -webkit-appearance: none;
+    width: 20%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    border-radius: 5px;
+  }
+  
+.options input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgb(11, 146, 167); 
+    cursor: pointer;
+    border-radius: 50%;
+  }
+ 
+  
+.wordrange p{
+   font-size: 25px;
+   color:rgb(11, 146, 167);
+}
+.selectedrange p{
+    height: 15px;
+    color:gray;
+    text-transform: capitalize;
+   
+}

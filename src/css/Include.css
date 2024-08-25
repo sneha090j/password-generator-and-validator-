@@ -1,0 +1,58 @@
+.include{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-family:monospace;
+    color:rgb(11, 146, 167);
+}
+.include p{
+    font-size: 25px;
+}
+.include .click{
+    font-size: 39.5px; 
+}
+@media (max-width: 768px) {
+    .include {
+        padding: 4px;
+    }
+    
+    .include p {
+        font-size: 20px;
+    }
+    
+    .include .click {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .include {
+        padding: 3px;
+    }
+
+    .include p {
+        font-size: 18px;
+    }
+
+    .include .click {
+        font-size: 30px;
+    }
+}
+
+/* Further adjustments for very small screens */
+@media (max-width: 360px) {
+    .include {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .include p {
+        font-size: 16px;
+    }
+
+    .include .click {
+        font-size: 28px;
+        margin-top: 8px;
+    }
+}
