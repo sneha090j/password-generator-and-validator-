@@ -123,10 +123,15 @@ font-family:'Courier New', Courier, monospace;
 
     .options-container {
         width: 80%;
+<<<<<<< HEAD
         height:298px;
         margin-left: auto;
         margin-right: auto;
         overflow: hidden;
+=======
+        margin-left: auto;
+        margin-right: auto;
+>>>>>>> 3a4cc4f76f2533ab1169dd99b9f28a7a2c2046fc
     }
 }
 @media (max-width: 768px) {
