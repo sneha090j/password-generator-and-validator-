@@ -1,8 +1,7 @@
 .options{
-    padding: 5px;
+    padding: 22px;
     font-family:monospace;
-    height: 100%;
-    color:rgb(11, 146, 167);
+    color:white;
 
 }
 .wordrange{
@@ -11,11 +10,11 @@
   
     text-transform: capitalize;
     font-family: monospace;
-    color:rgb(11, 146, 167);
+    color:white;
 }
 .wordrange input{
     height: 15px;
-    color:rgb(11, 146, 167);
+    color:white;
 
 }
 .options input[type="range"] {
@@ -34,7 +33,7 @@
     appearance: none;
     width: 20px;
     height: 20px;
-    background: rgb(11, 146, 167); 
+    background-color:rgb(11, 83, 227); 
     cursor: pointer;
     border-radius: 50%;
   }
@@ -42,7 +41,7 @@
   
 .wordrange p{
    font-size: 25px;
-   color:rgb(11, 146, 167);
+   color:white;
 }
 .selectedrange p{
     height: 15px;

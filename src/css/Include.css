@@ -1,16 +1,17 @@
 .include{
     display: flex;
     justify-content: space-between;
-    padding: 5px;
     font-family:monospace;
-    color:rgb(11, 146, 167);
+    color:white;
 }
 .include p{
+    padding: 21px;
     font-size: 25px;
 }
 .include .click{
     font-size: 39.5px; 
 }
+
 @media (max-width: 768px) {
     .include {
         padding: 4px;
