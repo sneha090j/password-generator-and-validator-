@@ -64,10 +64,10 @@ font-family:'Courier New', Courier, monospace;
     font-weight: bolder;
 
 }
-.passtype p:hover{
+/* .passtype p:hover{
     color:blue;
    
-}
+} */
 .passtype button{
   
     border:2px solid white;
