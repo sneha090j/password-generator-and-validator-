@@ -28,12 +28,21 @@
     border-radius: 5px;
   }
   
-.options input[type="range"]::-webkit-slider-thumb {
+/* .options input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 20px;
     height: 20px;
     background-color:rgb(11, 83, 227); 
+    cursor: pointer;
+    border-radius: 50%;
+  } */
+ .options input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color:white; 
     cursor: pointer;
     border-radius: 50%;
   }
